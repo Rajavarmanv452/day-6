@@ -1,0 +1,33 @@
+que no 1;
+ class Movie {
+      consrtuctor (title,studio,rating){
+          this.title=title;
+          this.studio=studio;
+          this.rating=rating;
+         
+      }
+  }
+ class Movie {
+      consrtuctor (title,studio,rating){
+          this.title=title;
+          this.studio=studio;
+          this.rating="pg";
+         
+      }
+get pg(){
+          return this.movie;
+      }
+  }
+var m1 = new Movie("Casino Royale","Eon Productions","PG13");
+
+
+que no 3;
+     class Person {
+      consrtuctor (name,age,degree,dob){
+          this.name=name;
+          this.age=age;
+          this.degree=degree;
+          this.dob=dob
+      }
+  }
+  var p1 = new Person("raja","23","dme","1999");
